@@ -41,7 +41,7 @@ gateway:
       - --web.metrics.prometheus=true
       - --acme.email="your_email@blabla.com"
       - --acme.storage="/etc/traefik/acme/acme.json"
-      - --acme.entrypoing=https
+      - --acme.entrypoint=https
       - --acme.httpchallenge.entrypoint=http
       - --acme.domains='mydomain.com,www.mydomain.com'
 
